@@ -2,7 +2,9 @@ body {
     animation: colorChange 5s infinite;
     background: black;
 }
-
+#eje{
+  margin-left: 50%;
+}
 @keyframes colorChange {
     0% { background-color: #dcc9c9; }
     25% { background-color: #bfdf9e; }
