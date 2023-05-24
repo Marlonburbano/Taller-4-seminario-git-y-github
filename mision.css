@@ -1,0 +1,42 @@
+body {
+    animation: colorChange 5s infinite;
+    background: black;
+}
+
+@keyframes colorChange {
+    0% { background-color: #dcc9c9; }
+    25% { background-color: #bfdf9e; }
+
+    50% { background-color: #c0eac0; }
+    75% { background-color: #dcc9c9; }
+    100% { background-color: #c1c1e2; }
+}
+img{
+    border-radius: 30px;
+    margin-left: 38%;
+#vs1{
+    font-size: 300%;
+        font-family: cursive;
+        
+}
+
+.social-icons {
+    font-size: 60px;
+   margin-left: 45%;
+
+  }
+  
+  .social-icons a {
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .social-icons a:hover {
+    color: #4267B2; /* Color de resaltado para Facebook */
+  }
+  
+  /* Estilos específicos de Instagram */
+  .social-icons a:last-child:hover {
+    color: #E1306C; /* Color de resaltado para Instagram */
+  }
+}

@@ -1,0 +1,105 @@
+body{
+    margin-inline: 5%;
+    background-color:#F4FAF7;
+    background-position: center;
+
+}
+
+    
+    #inicio{
+        
+        margin-left:2%;
+        font-weight: bold;
+    }
+table{
+    margin-inline: auto;
+    background-color:#162b4e;
+    border-radius: 12px;
+    border: 2px solid  black;
+            
+
+}
+img{
+    margin-left:45%;
+    border-radius: 20px;
+    background-position: center;
+}
+label{
+    font-weight: bold;
+    color: #041B59;
+    
+}
+
+#sisben{
+    border-radius: 8px;
+    }
+    #tipo{
+        border-radius: 8px;
+       
+    }
+    #ndocumento{
+        border-radius: 8px;
+    }
+    #Archivo{
+        border-radius: 8px;
+    }
+    #nombre{
+        border-radius: 8px;
+    }
+    #apellido{
+        border-radius: 8px;
+    }
+    
+    #anio{
+        border-radius: 8px;
+    }
+    #lugar{
+        border-radius: 8px;
+    }
+    #fecha_nac{
+        border-radius: 8px;
+    }
+    #enfermedades{
+        border-radius: 8px;
+    }
+    #guardar{
+        margin-inline:auto ; 
+        border-radius: 12px;
+        background-color:#042940;
+        cursor: pointer;
+        border: none;
+        padding: 16px 32px;
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        position: relative;
+        margin-left: 40%;
+
+    }
+    
+    button::before{
+        content: "";
+        position: absolute;
+        top: 0;
+       left: 0;
+       z-index: -3;
+       width: 100%;
+       height: 100%;
+      background: linear-gradient(45deg,rgb(182, 243, 234),rgb(191, 238, 191),rgb(166, 166, 219),#bdb6e8);
+background-size: 800%;
+border-radius: 60px;
+filter: blur(40px);
+animation: glowing 20s linear infinite;
+
+    }
+    @keyframes glowing{
+        0%{
+            background-position: 0 0;
+        }
+        50%{
+            background-position: 400% 0;
+        }
+        100%{
+            background-position: 0 0;
+        }
+    }
